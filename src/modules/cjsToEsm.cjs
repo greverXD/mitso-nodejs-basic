@@ -14,7 +14,7 @@ let unknownObject;
 if (random > 0.5) {
     unknownObject = a;
 } else {
-    unknownObject = a;
+    unknownObject = b;
 }
 
 console.log(`Release ${release()}`);
