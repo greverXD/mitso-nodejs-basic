@@ -7,8 +7,8 @@ export const compress = (currentCdDir,file,zlibFDir)=>{
     if(!stat.isFile()){
         throw new Error("Opeation failed")
     }
-    const file = path.basename(path)+".br"
-    const zlibF = path.join(zlibFDir,file)
+    const fileBf = path.basename(path)+".br"
+    const zlibF = path.join(zlibFDir,fileBf)
     const read = fs.createReadStream(path)
     const writeStr = fs.createWriteStream(zlibF)
     const brotoli = fs.createBrotleCompress()

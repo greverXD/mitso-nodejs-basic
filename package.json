@@ -18,6 +18,7 @@
     "streams:read": "node src/streams/read.js",
     "streams:transform": "node src/streams/transform.js",
     "streams:write": "node src/streams/write.js",
+    "start": "node src/Lab_2_Golovan/command.js",
     "wt": "node src/wt/main.js",
     "zip:compress": "node src/zip/compress.js",
     "zip:decompress": "node src/zip/decompress.js"
@@ -35,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/KalinkinFiz/mitso-nodejs-basic/issues"
   },
-  "homepage": "https://github.com/KalinkinFiz/mitso-nodejs-basic#readme"
+  "homepage": "https://github.com/KalinkinFiz/mitso-nodejs-basic#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "minimist": "^1.2.8"
+  }
 }

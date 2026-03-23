@@ -1,7 +1,7 @@
 import fs from "fs"
 import path from "path"
 
-export const compress = (currentCdDir,file,zlibFDir)=>{
+export const decompress = (currentCdDir,file,zlibFDir)=>{
     const path = path.join(currentCdDir,file)
     const stat = fs.statSync(path)
     if(!stat.isFile()){
